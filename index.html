@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Management</title>
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="/js/app.js"></script>
+</head>
+<body>
+  <ul class="courses">
+    <li class="course">
+      Learn Ruby
+      <div class="details">
+        Learn Ruby, It loves you. Be happy.
+      </div>
+    </li>
+    <li class="course">
+      Learn JavaScript
+      <div class="details">
+        Learn JavaScript... you have to eat.
+      </div>
+    </li>
+    <li class="course">
+      Learn Elixir
+      <div class="details">
+        So functional
+      </div>
+    </li>
+  </ul>
+  <form id='add-new-course'>
+    <input type="text" id="course-name" name="course[name]" placeholder="Enter Course Name">
+    <input type="text" id="course-details" name="course[details]" placeholder="Enter Course Details">
+    <input type="submit" value="Add Course">
+  </form>
+</body>
+</html>
